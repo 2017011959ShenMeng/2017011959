@@ -4,7 +4,7 @@ import threading
 from urllib import request
 
 """
-在MongoDB中，定义一个数据库，名为‘simon_db’，其中有collection名为students
+在MongoDB中，定义一个数据库，名为'simon_db'，其中有collection名为'students'
 """
 
 client = pymongo.MongoClient('127.0.0.1', 27017)
